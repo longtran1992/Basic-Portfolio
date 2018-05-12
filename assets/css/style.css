@@ -11,12 +11,11 @@ li a {
     text-align: center;
     padding-right: 30px;
 }
-#name {
-    margin: 0;
-    background-color: #4aaaa5;
-    color: #ffffff;
-}
-div {
+body {
     width: 960px;
     height: 75px;
+}
+header {
+    display: block;
+    background: #ffffff;
 }
