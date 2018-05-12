@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding-right: 30px;
+}
+#clear {
+    clear: both;
+}
+#name {
+    margin: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+div {
+    width: 960px;
+    height: 75px;
+}
