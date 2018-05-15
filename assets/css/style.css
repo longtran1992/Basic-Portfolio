@@ -8,17 +8,17 @@ body {
      background-color: beige;
      display: flex;
      flex-direction: column;
-    } 
+} 
       
 #wrapper {
         border-bottom: 3px solid #cccccc;
         margin: 0;
-        }
+}
  
 #header {
         overflow: hidden;
         background-color: #ffffff;
-        }
+}
  
 #header h1 {
         float: left;
@@ -28,7 +28,7 @@ body {
         text-align: center;
         line-height: 80px;
         color: white;
-        }
+}
  
 nav {
     float: right;
@@ -41,11 +41,11 @@ nav {
         text-align: left;
         padding-right: 20px;
         margin-top: 14px;
-        }
+}
 a {
         text-decoration: none;
         color: #777777;
-        }
+}
 #container {
     background-color: #ffffff;
     overflow: auto;
