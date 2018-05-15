@@ -3,11 +3,11 @@ h1, h2, header {
 }
 html {
     height: 100%;
+    background-image: url(../images/gaming-pattern.png);
 }
 body {
      margin: auto;  
      overflow-x: hidden;
-     background-color: beige;
      display: flex;
      flex-direction: column;
      font-family: Arial, Helvetica, sans-serif;
