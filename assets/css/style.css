@@ -77,12 +77,15 @@ p {
 #footer {
     flex-shrink: 0;
     padding: 20px;
-    background-color: black;
+    background-color: gray;
     color: white;
     text-align: center
 }
 #footerContainer{
-    padding-top: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: #4aaaa5 solid 8px;
 }
 #headerContainer {
     max-width: 960px;
