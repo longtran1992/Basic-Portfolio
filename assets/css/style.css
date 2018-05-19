@@ -1,55 +1,60 @@
 h1, h2, header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 html {
     height: 100%;
     background-image: url(../images/concrete_seamless.png)
 }
+
 body {
-     margin: auto;  
-     overflow-x: hidden;
-     display: block;
-     flex-direction: column;
-     font-family: Arial, Helvetica, sans-serif;
-     color: #777777;
-} 
-      
+    margin: auto;
+    overflow-x: hidden;
+    display: block;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
 #wrapper {
-        border-bottom: 3px solid #cccccc;
-        margin: 0;
+    border-bottom: 3px solid #cccccc;
+    margin: 0;
 }
- 
+
 #header {
-        overflow: hidden;
-        background-color: #ffffff;
+    overflow: hidden;
+    background-color: #ffffff;
 }
- 
+
 #header h1 {
-        float: left;
-        background-color: #4aaaa5;
-        margin-bottom: 0;
-        margin-top: 0;
-        text-align: center;
-        line-height: 80px;
-        color: white;
+    float: left;
+    background-color: #4aaaa5;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    line-height: 80px;
+    color: white;
 }
- 
+
 nav {
     float: right;
     margin-top: 18px;
 }
+
 #header li {
-        border-right: 1px solid #cccccc;
-        display: inline-block;
-        margin: 1em .5em;
-        text-align: left;
-        padding-right: 20px;
-        margin-top: 14px;
+    border-right: 1px solid #cccccc;
+    display: inline-block;
+    margin: 1em .5em;
+    text-align: left;
+    padding-right: 20px;
+    margin-top: 14px;
 }
+
 a {
-        text-decoration: none;
-        color: #777777;
+    text-decoration: none;
+    color: #777777;
 }
+
 #container {
     display: block;
     background-color: #ffffff;
@@ -59,26 +64,32 @@ a {
     width: 960px;
     margin: auto;
 }
+
 h2 {
     margin-left: 25px;
     padding: 0;
     padding-bottom: 0px;
 }
+
 img {
     margin-left: 25px;
     padding-right: 8px;
     float: left;
 }
+
 p {
     line-height: 30px;
     text-align: left;
 }
+
 #second {
     margin-left: 25px;
 }
+
 #third {
     margin-left: 25px;
 }
+
 #footer {
     flex-shrink: 0;
     padding: 20px;
@@ -86,45 +97,54 @@ p {
     color: white;
     text-align: center
 }
-#footerContainer{
+
+#footerContainer {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     border-top: #4aaaa5 solid 8px;
 }
+
 #headerContainer {
     max-width: 960px;
     margin: auto;
 }
+
 #name {
     margin-left: 25px;
     padding-bottom: 5px;
 }
+
 #box1 {
     width: 95%;
     margin-left: 25px;
     height: 25px;
 }
+
 #email {
     margin-left: 25px;
     padding-bottom: 5px;
     padding-top: 5px;
 }
+
 #box2 {
     width: 95%;
     margin-left: 25px;
     height: 25px;
 }
+
 #message {
     margin-left: 25px;
     padding-top: 5px;
 }
+
 #box3 {
     width: 95%;
     margin-left: 25px;
     height: 300px;
 }
+
 button {
     display: inline-block;
     background-color: #4aaaa5;
@@ -135,9 +155,11 @@ button {
     font-size: 15px;
     margin-bottom: 10px;
 }
+
 textarea {
     font-size: 14px;
 }
+
 hr {
     height: 3px;
     border: none;
