@@ -1,4 +1,4 @@
-h1, h2, header {
+h1, h2, h3, h4, h5, header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -58,11 +58,12 @@ a {
 #container {
     display: block;
     background-color: #ffffff;
-    overflow: auto;
+    overflow: hidden;
     padding: 0px;
     flex: 1 0 auto;
     width: 960px;
     margin: auto;
+    padding-bottom: 100px;
 }
 
 h2 {
@@ -77,17 +78,18 @@ img {
     float: left;
 }
 
-p {
+#first {
     line-height: 30px;
-    text-align: left;
 }
 
 #second {
     margin-left: 25px;
+    line-height: 30px;
 }
 
 #third {
     margin-left: 25px;
+    line-height: 30px;
 }
 
 #footer {
@@ -99,7 +101,7 @@ p {
 }
 
 #footerContainer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -168,6 +170,94 @@ hr {
     width: 95%;
 }
 
-.gallery {
-    float: left;
+#hangman {
+    position: relative;
+}
+
+#desc1 {
+    position: absolute;
+    top: 85px;
+    left: 25px;
+    width: 275px;
+    height: 50px;
+    background-color: #4aaaa5;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+#rpg {
+    position: relative;
+}
+
+#desc2 {
+    position: absolute;
+    background-color: #4aaaa5;
+    left: 34.7%;
+    top: 85px;
+    width: 275px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+#trivia {
+    clear: both;
+    position: relative;
+    padding-top: 35px;
+}
+
+#desc3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 275px;
+    height: 50px;
+    left: 25px;
+    top: 120px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+#rutger {
+    position: relative;
+}
+
+#desc4 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 275px;
+    height: 50px;
+    left: 34.7%;
+    top: 85px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+#rpc {
+    clear: both;
+    position: relative;
+    padding-top: 35px;
+    margin-bottom: 30px;
+}
+
+#desc5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 275px;
+    height: 50px;
+    left: 25px;
+    top: 120px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+a:hover {
+    opacity: 0.7;
 }
